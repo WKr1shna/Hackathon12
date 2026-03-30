@@ -1,66 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Astra Arena</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Callback Calculator</title>
+
+  <style>
+  body {
+    font-family: Arial, sans-serif;
+    padding: 200px;
+    margin-left: 300px;
+    background-color: #f0f0f0;
+  }
+
+  .calculator {
+    border: none;
+    width: 250px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #1c1c1c;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+  }
+
+  #display {
+    width: 230px;
+    height: 60px;
+    font-size: 30px;
+    margin-bottom: 15px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    text-align: right;
+  }
+  </style>
 </head>
+
 <body>
-
-  <!-- NAVBAR -->
-  <header class="navbar">
-    <div class="logo">✴ Astra Arena</div>
-
-    <nav class="nav-links" id="navLinks">
-      <a href="#">About</a>
-      <a href="#">Leaderboard</a>
-      <a href="#">Annotation jobs</a>
-      <a href="#">Purchase data</a>
-      <a href="#">Discord</a>
-      <div class="mobile-actions">
-        <button class="btn-outline">Docs</button>
-        <button class="btn-solid">Sign in</button>
-      </div>
-    </nav>
-
-    <div class="nav-actions desktop-only">
-      <button class="btn-outline">Docs</button>
-      <button class="btn-solid">Sign in</button>
-    </div>
-
-
-    <!-- HAMBURGER -->
-    <div class="hamburger" id="hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  </header>
-
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-content">
-
-      <!-- PILL TOGGLE -->
-      <div class="pill-toggle">
-        <div class="pill-indicator"></div>
-        <button class="pill active">Code</button>
-        <button class="pill">System design</button>
-      </div>
-
-        <h1>
-        Discover which AI is best at
-        <span>{CODING}</span>
-        </h1>
-      <p>
-        Compare, vote and give feedback to level up the AI arena for SWE.
-      </p>
-
-      <button class="cta">Start voting</button>
-
-    </div>
-  </section>
+  <div class="calculator">
+    <input id="display">
+  </div>
 
   <script src="script.js"></script>
 </body>
