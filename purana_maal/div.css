@@ -1,0 +1,18 @@
+.p{
+    clear: both;
+}
+.c1{
+    border-radius: 7px;
+    height: 200px;
+    width: 800px;
+    background-color: bisque;
+    background-image:url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Findiameme%2Fcomments%2F1dbl4p6%2Findian_dogs_are_funny%2F&psig=AOvVaw10hasyVfD72XhCySOClx1B&ust=1757661851199000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKCxiOeW0I8DFQAAAAAdAAAAABAE") ;
+    background-repeat: no-repeat;
+}
+.c11{
+   height: 150px;
+   width: 150px;
+}
+.c12{
+    float: right;
+}

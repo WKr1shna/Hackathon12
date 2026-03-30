@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .rps {
+        margin-bottom: 20px;
+    }
+    .btn {
+        color: black;
+        padding: 10px 20px;
+        margin: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    #result {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .b1{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        background-position-x: center;
+        background-size: contain;
+        background-color: lightcoral;
+        
+        background-image: url("https://imgs.search.brave.com/94NRh50YIhDhmzZ213ZRd-qEKKnKVhheSgRoIRJK4kQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2E2LzFj/L2JhL2E2MWNiYThh/OTM4Njk4NmZkYmIz/ZDM0YzUxYjIxZWVl/LmpwZw");
+    }
+    .b2{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: lightblue;
+        background-image: url("https://imgs.search.brave.com/1anKBRDEZD53nr3XUJq4ZXQNiQbR_2q9I6wrU0CVS_o/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAyMC8w/OS8zMC8xNC8zNC9w/YXBlci01NjE1OTQ0/XzY0MC5wbmc")
+    }
+    .b3{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: lightgreen;
+        background-image: url("https://imgs.search.brave.com/n2Lpgcc6Zt8ZvPktyy0ql29hCg7jpPH05POISCmYyEQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE2/Mjk1NTA2MS9waG90/by92aW50YWdlLXNj/aXNzb3JzLW9uLXBp/bmstYmFja2dyb3Vu/ZC5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9dFFOMUNOMnRn/LW1yVjRXN1ZRNElv/aDNpeVh2YVgwVnAw/dUFiTnVvbzltbz0");
+    }
+        .score {
+        margin-top: 30px;
+    }
+    </style>
+<body>
+    <div class="rps">
+        <h1>Rock Paper Scissors</h1>
+        <button class="btn b1" id="1"></button>
+        <button class="btn b2" id="2"></button>
+        <button class="btn b3" id="3"></button>
+        <div id="result"></div>
+    </div>
+    <div class="score">
+        <h2>Score</h2>
+        <p id="player-score">Player: </p>
+        <p id="computer-score">Computer: </p>
+    </div>
+</body>
+</html>
